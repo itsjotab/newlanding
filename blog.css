@@ -1,0 +1,73 @@
+body {
+    width: 90%;
+    margin: 5%; 
+    background-color: white;
+}
+
+.title {
+    padding-top: 25px;
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    height: 60px;
+    box-shadow: 0 8px 12px 0 rgba(47, 37, 6, 0.2);
+}
+
+#container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: auto;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);
+    transition: background-color 2s ease-out 100ms
+}
+
+.card:hover {
+    background-color: orchid;
+    color: white
+}
+
+#card1 {
+    text-align: center;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;  
+}
+
+#card2 {
+    text-align: center;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 33%;
+}
+
+#card3 {
+    text-align: center;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 66%;
+}
+
+img {
+    border-radius: 5px;
+}
+
+p {
+    padding: 10PX;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+button:hover {
+    border-radius: 5px;
+    background-color: rgb(24, 145, 113);
+}
